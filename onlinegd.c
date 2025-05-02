@@ -1,6 +1,6 @@
-#include <stdio.h>
-#include <string.h>
-#include <time.h>
+#include<stdio.h>
+#include<string.h>
+#include<time.h>
 
 #define MAX_COMPLAINTS 100
 
@@ -163,7 +163,7 @@ int main() {
                 editComplaint(complaints, complaintCount);
                 break;
             case 4:
-                printf("\U0001F44B Thank you for using Online General Diary.\n");
+                printf("Thank you for using Online General Diary.\n");
                 return 0;
             default:
                 printf("Invalid Choice. Please try again.\n");
